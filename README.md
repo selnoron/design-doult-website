@@ -1,3 +1,3 @@
 <center>
-  <img src='logo.PNG' style="width:500px">
+  <img src='logo.png' style="width:500px">
 </center>
