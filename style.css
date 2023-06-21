@@ -88,7 +88,7 @@ header {
 .search input {
   width: 100%;
   height: 52px;
-  background: #141111;
+  background: #1f1a1a;
   padding-left: 15px;
   color: white;
 }
@@ -127,9 +127,6 @@ footer {
     width: 100%;
     height: 120px;
     background-color: #221e1e;
-    position: fixed;
-    left: 0;
-    bottom: 0;
 }
 
 .foo-invis {
@@ -161,6 +158,7 @@ footer {
     text-align: center;
     font-size: 12px;
     font-weight: 300;
+    color: rgb(207, 189, 212);
 }
 
 .inst a {
@@ -174,3 +172,285 @@ footer {
     text-align: center;
 }
 
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.image {
+    width: 55%;
+    height: 500px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.img-invis {
+    width: 100%;
+    height: 95%;
+    margin-top: 12.5px;
+    border-radius: 15px;
+    background-image: url(diablo.jpg);
+    background-size: 1280px 680px;
+    background-position: center -40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.arrows {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.lef {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(152,0,255,1);
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 4px;
+    color: white;
+}
+
+.rig {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(152,0,255,1);
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 4px;
+    color: white;
+}
+
+.img-text {
+    height: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tex-tit {
+    width: 70%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.tex-price {
+    width: 30%;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 210px;
+}
+
+.img-price {
+    height: 20px;
+    background: linear-gradient(34deg, rgba(205,67,67,1) 0%, rgba(152,0,255,1) 67%);
+    display: inline;
+    box-sizing: none;
+    padding: 5px 9px 5px 9px;
+    border-radius: 10px;
+}
+
+.img-price a {
+    text-decoration: none;
+    color: white;
+}
+
+.games {
+    width: 55%;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.cat {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.cat-obj {
+    width: 50%;
+    height: 100%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cat-icon {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(34deg, rgba(205,67,67,1) 0%, rgba(152,0,255,1) 67%);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(205,67,67,1); 
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 2px;
+    padding-left: 12px;
+    text-shadow: 0 0 15px rgb(253, 253, 253); 
+    margin-top: 3px;
+    margin-left: 1px;
+}
+
+.cat-text {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    width: 87%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.rec {
+    color: rgba(152,0,255,1);
+}
+
+.game-li {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.game-card {
+    width: 230px;
+    height: 300px;
+    background-color: #221e1e;
+    border-radius: 10px;
+}
+
+.image-card {
+    width: 100%;
+    height: 60%;
+    background-image: url(minecraft.jpg);
+    background-position: center -50px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title {
+    width: 100%;
+    height: 23%;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+
+.buy-card {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bu-ca-price {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bu-ca-button {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pr-box b {
+    font-size: 18px;
+}
+
+.pr-box {
+    width: 80%;
+    height: 75%;
+    background-color: #332e2e;
+    align-self: center;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 4px;
+    color: rgb(153, 0, 255);
+    text-shadow: 0 0 5px rgba(130, 0, 216, 0.5); 
+}
+
+.bu-box {
+    width: 80%;
+    height: 75%;
+    background: linear-gradient(34deg, rgba(205,67,67,1) 0%, rgba(152,0,255,1) 67%);
+    align-self: center;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 4px;
+    color: white;
+    text-shadow: 0 0 5px rgba(130, 0, 216, 0.5); 
+}
+
+.image-card2 {
+    width: 100%;
+    height: 60%;
+    background-image: url(gta_mini.jpg);
+    background-position: center -64px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image-card3 {
+    width: 100%;
+    height: 60%;
+    background-image: url(atom.jpg);
+    background-position: center -80px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image-card4 {
+    width: 100%;
+    height: 60%;
+    background-image: url(resid.jpg);
+    background-position: center -20px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.footer-about-us {
+    width: 100%;
+    height: 120px;
+    background-color: #221e1e;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.about-text {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: -250px;
+}
