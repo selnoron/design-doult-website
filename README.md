@@ -1,13 +1,20 @@
 <div align="center">
-  <img src='logo.png' style="width:500px">
+<img src="logo.png"/>
 </div>
-# # screenshots
+
+# <div align="center">Screenshots</div> <br />
+## <div align="center">'index' html</div> <br />
+
 <div align="center">
-  <img src='png1.PNG'>
+<img src='png1.PNG'>
 </div>
+<hr>
 <div align="center">
-  <img src='png2.PNG'>
+<img src='png2.PNG'>
 </div>
+
+## <div align="center">'about us' html</div> <br />
+
 <div align="center">
-  <img src='png3.PNG'>
+<img src='png3.PNG'>
 </div>
