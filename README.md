@@ -3,11 +3,11 @@
 </div>
 # screenshots
 <div align="center">
-  <img src='png1.png'>
+  <img src='png1.PNG'>
 </div>
 <div align="center">
-  <img src='png2.png'>
+  <img src='png2.PNG'>
 </div>
 <div align="center">
-  <img src='png3.png'>
+  <img src='png3.PNG'>
 </div>
